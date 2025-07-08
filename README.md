@@ -152,7 +152,7 @@ bank-api/
 - **Test UNIQUE Constraint Error**: Resolved by clearing the database in `test_bank_api.py` `setUp` and using auto-incremented IDs.
 - **Data Issues**: Ensured `ABHY0065001` loads correctly by verifying CSV content.
 
-## Deployment on Heroku
+## Deployment on Heroku Note: Free Tier Removed: Heroku no longer offers free dynos, Postgres databases, or Redis instances. 
 1. **Install Heroku CLI**:
    ```bash
    heroku login
